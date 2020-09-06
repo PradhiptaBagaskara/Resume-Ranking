@@ -16,3 +16,23 @@ We are giving weightage to each resume in 4 ways as mentioned below:
 
 All above weightages can be easily changed from the coding. 
 We can also seperately create a config file to make it more flexible.
+
+Software
+Gensim
+Numpy==1.11.3
+Pandas
+Sklearn
+PdfMiner.six
+Python 3.6.0 |Anaconda 4.3.0 (64-bit)|
+
+Dependencies:
+Must have textract installed   
+To install refer: You can now go to https://github.com/deanmalmgren/textract/releases and download v1.6.2 which provides only requirement updates over v1.6.1 (fixing the unicode debug error) or v1.6.3 which is the latest (as of writing this.)
+
+Once downloaded, extract, cd [folder extracted to] and pip install .
+
+Note: Just keep in mind there is always the concern that as requirements are updated malicious code can be inserted into dependencies and update this at your own risk.
+
+Running
+Simply run this command from root directory.
+python app.py
